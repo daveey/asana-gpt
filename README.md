@@ -25,9 +25,9 @@ To use the script, you will need Python 3.6 or later installed on your system. Y
 To use the script, run the following command:
 
 ```
-python chatbot.py --asana-token <ASANA_TOKEN> \
+python asana_gpt.py --asana-token <ASANA_TOKEN> \
                   --workspace <WORKSPACE_ID> \
-                  --openai-key <OPENAI_API_KEY>
+                  --openai-key <OPENAI_API_KEY> \
                   --chat
 ```
 
