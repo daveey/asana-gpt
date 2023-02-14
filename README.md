@@ -36,13 +36,18 @@ Replace `<ASANA_TOKEN>` with your Asana API token, `<WORKSPACE_ID>` with the ID 
 You can use the `--query` option to ask the chatbot a question and get an answer:
 
 ```
-python chatbot.py --asana-token <ASANA_TOKEN> --workspace <WORKSPACE_ID> --openai-key <OPENAI_API_KEY> --query "What are my tasks for today?"
+python chatbot.py --asana-token <ASANA_TOKEN> \
+                  --workspace <WORKSPACE_ID> \
+                  --openai-key <OPENAI_API_KEY> \
+                  --query "What are my tasks for today?"
 ```
 
 You can also use the `--chat` option to chat with the chatbot interactively:
 
 ```
-python chatbot.py --asana-token <ASANA_TOKEN> --workspace <WORKSPACE_ID> --openai-key <OPENAI_API_KEY> --chat
+python chatbot.py --asana-token <ASANA_TOKEN> \
+                  --workspace <WORKSPACE_ID> \
+                  --openai-key <OPENAI_API_KEY> --chat
 ```
 
 ## License
